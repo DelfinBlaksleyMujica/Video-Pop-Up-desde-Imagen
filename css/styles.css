@@ -1,0 +1,53 @@
+#contenedor__pagina{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background: red;
+    height:50rem;
+}
+
+#contenedor__imagenYvideo{
+    width: 60%;
+    height:80%;
+    background:green;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#contenedor__imagen{
+    width: 50%;
+    height:40%;
+    background-color: white;
+}
+
+.contenedor__imagen__aparecer{
+    width: 50%;
+    height:40%;
+    background-color: white;
+}
+
+.contenedor__imagen__desaparecer{
+    display:none;
+}
+
+#contenedor__imagen img{
+    height:100%;
+    width: 100%;
+}
+
+
+.videoYcruz__container{
+    position: relative;
+}
+
+.videoYcruz__container video{
+    width: 200%;
+    
+}
+
+#btnCerrar {
+    position:absolute;
+    top: 15px;
+    left: 10px;
+}
